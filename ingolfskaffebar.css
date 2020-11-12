@@ -1,0 +1,295 @@
+body{
+    margin: 0;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;    
+}
+#container{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    height: fit-content;
+    background-color: #FFFEF1;
+}
+#logo{
+    margin-left: 1.5vw;
+    width: 1000px;
+    height: 125px;
+    padding: 10px;
+}
+.links:link{
+    text-decoration: none;
+    color: #FFFEF1;
+}
+.links:visited{
+    color: #351700;
+}
+.links:hover{
+    background-color: #883b00;
+}
+.links:active{
+    color: rgb(94, 39, 94);
+}
+.foot:link{
+    text-decoration: none;
+    color: #FFFEF1;
+}
+.foot:visited{
+    color: #053f46;
+}
+.foot:hover{
+    background-color: #067683;
+}
+.foot:active{
+    color: rgb(94, 39, 94);
+}
+#menubar{
+    width: auto;
+    background-color: #CF5800;
+    margin: 5px 0;
+    padding: 5px;
+}
+.menu{
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+.menu:hover{
+    background-color: #fa8730;
+    border-radius: 10%;
+    padding: 5px;
+    margin: 20px;
+}
+.knap{
+    padding: 1px;
+    border-radius: 3px;
+    font-size: 20px;
+    background-color: #01BACE;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.knap:hover{
+    background-color: #01BACE;
+    border-radius: 3%;
+    padding: 5px;
+}
+#fbillede{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 15px
+}
+#velkommen{
+    padding: 10px;
+    margin: 25px;
+    margin-left: 30px;
+    background-color: #01bace9a;
+    width: 990px;
+}
+#velkommentekst{
+    float: left;
+    width: 60%;
+    padding: 10px;
+}
+#velkommenbillede{
+    padding: 10px;
+    width: 33%;
+    padding-top: 20px;
+    float: left;
+}
+.float{
+    clear: both;
+}
+#info{
+    padding: 10px;
+    margin: 25px;
+    margin-left: 30px;
+    background-color: #CF5800;
+    width: 990px;
+}
+#infobillede{
+    padding: 10px;
+    width: 33%;
+    padding-top: 20px;
+    float: left;
+}
+#gæsten{
+    float: right;
+    width: 25%;
+    padding: 10px;
+}
+#zittans{
+    float: right;
+    width: 25%;
+    padding: 10px;
+}
+#footer{
+    width: auto;
+    height: 120px;
+    background-color: #01BACE;
+    margin: 5px 0;
+    padding: 15px;
+}
+#ko1{
+    width: 18%;
+    float: right;
+    padding: 10px;
+}
+#ko2{
+    width: 24%;
+    float: right;
+    padding-top: 10px;
+}
+#ko3{
+    width: 24%;
+    float: right;
+    padding-top: 10px;
+}
+#ko4{
+    width: 25%;
+    float: right;
+}
+#madbillede{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 15px
+}
+#morgenmenu{
+    padding: 10px;
+    margin: 25px;
+    margin-left: 30px;
+    background-color: #01bace9a;
+    width: 990px;
+}
+#morgenmad{
+    float: left;
+    width: 60%;
+    padding: 10px;
+}
+#morgenbillede{
+    padding: 10px;
+    width: 33%;
+    padding-top: 20px;
+    float: left;
+}
+#morgenmad2{
+    float: right;
+    width: 40%;
+    padding: 10px;
+}
+#morgenbillede2{
+    padding: 10px;
+    width: 33%;
+    padding-top: 20px;
+    float: left;
+}
+#aftenmenu{
+    padding: 10px;
+    margin: 25px;
+    margin-left: 30px;
+    background-color: #CF5800;
+    width: 990px;
+}
+#aftensmad{
+    float: left;
+    width: 60%;
+    padding: 10px;
+}
+#aftenbillede{
+    padding: 10px;
+    width: 33%;
+    padding-top: 20px;
+    float: left;
+}
+#aftensmad2{
+    float: right;
+    width: 40%;
+    padding: 10px;
+}
+#aftenbillede2{
+    padding: 10px;
+    width: 33%;
+    padding-top: 20px;
+    float: left;
+}
+.some{
+    width: 22px;
+    height: 22px;
+    padding: 10px;
+}
+#bestilbord1{
+    padding: 10px;
+    margin: 25px;
+    margin-left: 30px;
+    background-color: #01bace9a;
+    width: 990px;
+}
+#taktekst{
+    float: left;
+    width: 60%;
+    padding: 10px;
+    font-size: 22px;
+}
+#bordbillede{
+    padding: 10px;
+    width: 33%;
+    padding-top: 20px;
+    float: left;
+}
+#bestilbord2{
+    padding: 10px;
+    margin: 25px;
+    margin-left: 30px;
+    background-color: #CF5800;
+    width: 990px;
+    height: 400px;
+}
+.bestil{
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+#kommentar{
+    width: 250px;
+    height: 100px;
+}
+#submit{
+    float: right;
+    margin-right: 40px;
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);   
+}
+.modal-content{
+    background-color: #fefefe;
+    margin:15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.close{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
