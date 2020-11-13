@@ -87,7 +87,7 @@ body{
     text-align: center;
     margin-top: 15px
 }
-#velkommen{
+.bluebox{
     padding: 10px;
     margin: 25px;
     margin-left: 30px;
@@ -108,7 +108,7 @@ body{
 .float{
     clear: both;
 }
-#info{
+.orangebox{
     padding: 10px;
     margin: 25px;
     margin-left: 30px;
@@ -163,13 +163,6 @@ body{
     text-align: center;
     margin-top: 15px
 }
-#morgenmenu{
-    padding: 10px;
-    margin: 25px;
-    margin-left: 30px;
-    background-color: #01bace9a;
-    width: 990px;
-}
 #morgenmad{
     float: left;
     width: 60%;
@@ -191,13 +184,6 @@ body{
     width: 33%;
     padding-top: 20px;
     float: left;
-}
-#aftenmenu{
-    padding: 10px;
-    margin: 25px;
-    margin-left: 30px;
-    background-color: #CF5800;
-    width: 990px;
 }
 #aftensmad{
     float: left;
@@ -226,13 +212,6 @@ body{
     height: 22px;
     padding: 10px;
 }
-#bestilbord1{
-    padding: 10px;
-    margin: 25px;
-    margin-left: 30px;
-    background-color: #01bace9a;
-    width: 990px;
-}
 #taktekst{
     float: left;
     width: 60%;
@@ -244,14 +223,6 @@ body{
     width: 33%;
     padding-top: 20px;
     float: left;
-}
-#bestilbord2{
-    padding: 10px;
-    margin: 25px;
-    margin-left: 30px;
-    background-color: #CF5800;
-    width: 990px;
-    height: 400px;
 }
 .bestil{
     width: 30%;
@@ -295,13 +266,6 @@ body{
     color: black;
     text-decoration: none;
     cursor: pointer;
-}
-.ombygning{
-    padding: 10px;
-    margin: 25px;
-    margin-left: 30px;
-    background-color: #01bace9a;
-    width: 990px;
 }
 .ombygtekst{
         float: left;
