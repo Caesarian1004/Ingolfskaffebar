@@ -15,10 +15,12 @@ body{
     border-right: 1px solid #f3f2eb;
 }
 #logo{
-    margin-left: 1.5vw;
-    width: 1000px;
-    height: 125px;
+    text-align: center;
     padding: 10px;
+}
+#logo img{
+    max-width: 100%;
+    height: auto;
 }
 .links:link{
     text-decoration: none;
@@ -50,36 +52,42 @@ body{
     width: auto;
     background-color: #CF5800;
     margin: 5px -5px;
-    padding: 5px;
+    padding: 0 5px;
     border-radius: 3px;
 }
 .menu{
     text-align: center;
     margin: 5px;
-    padding: 20px;
+    padding: 0 20px;
     font-size: 20px;
     text-decoration: none;
     color: black;
+    display: inline-block;
     
 }
 .menu:hover{
     background-color: #fa8730;
-    border-radius: 10%;
+    border-radius: 5px;
     padding: 5px;
-    margin: 20px;
+    margin: 0 20px;
 }
 .knap{
-    padding: 1px;
+    margin: 5px;
+    padding: 0 5px;
+    border: none;
     border-radius: 3px;
     font-size: 20px;
     background-color: #01BACE;
     text-decoration: none;
     color: whitesmoke;
+    display: inline-block;
+    cursor: pointer;
 }
 .knap:hover{
     background-color: #01BACE;
-    border-radius: 3%;
+    border-radius: 5px;
     padding: 5px;
+    margin: 0 5px;
 }
 #fbillede{
     margin-left: auto;
@@ -112,7 +120,7 @@ body{
     padding: 10px;
     margin: 25px;
     margin-left: 30px;
-    background-color: #CF5800;
+    background-color: #dd670ccb;
     width: 990px;
 }
 #infobillede{
@@ -133,29 +141,26 @@ body{
 }
 #footer{
     width: auto;
-    height: 120px;
+    height: 130px;
     background-color: #01BACE;
     margin: 5px 0;
     padding: 15px;
+    display: flex;
 }
 #ko1{
-    width: 18%;
-    float: right;
+    width: 25%;
     padding: 10px;
 }
 #ko2{
-    width: 24%;
-    float: right;
     padding-top: 10px;
+    flex-grow: 1;
 }
 #ko3{
-    width: 24%;
-    float: right;
     padding-top: 10px;
+    flex-grow: 1;
 }
 #ko4{
     width: 25%;
-    float: right;
 }
 #madbillede{
     margin-left: auto;
@@ -224,9 +229,14 @@ body{
     padding-top: 20px;
     float: left;
 }
+#form1 form{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
 .bestil{
     width: 30%;
-    float: left;
+    /* float: left; */
     padding: 10px;
 }
 #kommentar{
@@ -253,7 +263,7 @@ body{
     margin:15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 40%;
 }
 .close{
     color: #aaa;
@@ -271,4 +281,14 @@ body{
         float: left;
         width: 60%;
         padding: 10px;
+}
+#form1 h2{
+    margin-bottom: 0;
+}
+#footer input {
+    margin-top: 5px;
+}
+
+.bestil p {
+    margin-bottom: 5px;
 }
